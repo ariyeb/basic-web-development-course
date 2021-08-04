@@ -1,0 +1,152 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>box-model</title>
+    <link rel="stylesheet" href="./02-box-model.css">
+</head>
+
+<body>
+
+    <!-- div span -->
+
+    <div style="width: 200px;">
+        <h5>div title</h5>
+        <p>bla bla bla bla bla bla bla bla bla <span style="background: #ccc;">bla bla bla bla</span> bla
+            bla bla bla
+            bla bla bla bla bla bla bla bla bla bla
+            bla bla bla bla bla bla bla bla bla bla bla bla </p>
+    </div>
+
+    <!-- inline block  visibility: hidden;, none-->
+    <div style="width: 200px; display: inline-block;">
+        <h5>div2 title</h5>
+        <p>bla bla bla bla bla bla bla bla bla <span style="background: #ccc;">bla bla bla bla</span> bla
+            bla bla bla
+            bla bla bla bla bla bla bla bla bla bla
+            bla bla bla bla bla bla bla bla bla bla bla bla </p>
+    </div>
+    <div style="width: 200px;display: inline-block;">
+        <h5>div3 title</h5>
+        <p>bla bla bla bla bla bla bla bla bla <span style="background: #ccc;">bla bla bla bla</span> bla
+            bla bla bla
+            bla bla bla bla bla bla bla bla bla bla
+            bla bla bla bla bla bla bla bla bla bla bla bla </p>
+    </div>
+
+    <!-- width height -->
+    <div style="background: blue; width: 150px;height: 150px;"></div>
+    <div style="background: red; width: 100%; height: 150px;">
+        <div style="background: green; width: 30%; height: 100%;"></div>
+    </div>
+
+    <!-- vw vh -->
+
+    <div class="vh-vw-example"></div>
+
+    <!-- min-max width/height -->
+
+    <div class="min-max-example">
+        <h5>div3 title</h5>
+        <p>bla bla bla bla bla bla bla bla bla <span style="background: #ccc;">bla bla bla bla</span> bla
+            bla bla bla
+            bla bla bla bla bla bla bla bla bla bla
+            bla bla bla bla bla bla bla bla bla bla bla bla </p>
+    </div>
+
+
+    <!-- margin padding -->
+
+    <div class="box-example">
+        <div class="box2-example"></div>
+    </div>
+
+    <!-- 
+        border -> none - > solid -> sides
+        box-sizing
+        outline
+    -->
+
+    <div class="border-example"></div>
+
+    <!-- border-radius -->
+
+    <div class="radius-example">radius example</div>
+
+    <!-- 
+           button
+            pseudo class
+                :hover
+                :focus
+      -->
+
+    <button type="button" class="button-send">Send</button>
+
+
+    <!-- 
+         input
+            :focus
+     -->
+    <input type="text" placeholder="Write somthing" />
+
+    <!-- 
+        a
+    :vistited
+     -->
+
+    <a href="./01 selectors.html">Some Link</a>
+
+    <!-- calc !!! -->
+
+    <!-- 
+        תרגיל:
+        צקו עמוד עם הדר שבו 
+        מצד אחד יש כפתור הום ומצד שני כםתור לוגין
+        מתחת יש כתבה עם כותרת
+        תוכן עניינים של כותרות משנה
+        10 פסקאות
+        שבאמצע משולבת תמונה.
+        הכתבה ברוחב 70% מהמסך באמצע
+        למטה יש פוטר עם שני לינקים במרכז:
+        about us, contact us
+
+        הלינק של לוגין מוביל לעמוד עם 
+        form 
+        במרכז העמוד מבחינת הרוחב
+        שבו יש אימייל וסיסמה
+        וכפתור לוגין שמוביל בחזרה לעמוד של הכתבה
+     -->
+
+    <!-- 
+        display
+        margin
+        padding
+        border
+        width
+        height
+            percent
+            vh
+            vw
+        min/max-width
+        min/max-height
+        border-radious
+
+        button
+            pseudo class
+                :hover
+                :active
+                
+        
+        input
+            :focus
+
+
+        a
+            :vistited
+     -->
+
+
+
+</body </html>

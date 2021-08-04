@@ -1,0 +1,94 @@
+/* * {
+    box-sizing: border-box;
+    font-size: 1rem;
+} */
+
+.vh-vw-example {
+    background: indigo;
+    width: 50vw;
+    height: 30vh;
+    margin: 20px;
+}
+
+.min-max-example {
+    /* min-width: 180px; */
+    max-width: 50px;
+    /* max-height: 50px; */
+}
+
+.box-example {
+    margin: 20px;
+    width: 200px;
+    height: 200px;
+    background: green;
+    padding: 10px;
+    /* visibility: hidden; */
+    /* display: none; */
+}
+
+.box2-example {
+    width: 100%;
+    height: 100%;
+    background: red;
+}
+
+.border-example {
+    width: 150px;
+    height: 150px;
+    background: yellow;
+    /* box-sizing: border-box; */
+    border: 3px solid blue;
+    /* border: none; */
+    /* outline: 5px solid rgb(20, 161, 20); */
+}
+
+.radius-example {
+    width: 200px;
+    height: 200px;
+    border: 2px solid red;
+    background: purple;
+    /* border-radius: 5px; */
+    /* border-radius: 25%; */
+    /* border-radius: 50%; */
+    margin: 20px;
+}
+
+.button-send {
+    margin: 10px;
+    padding: 10px;
+    border: 1px solid transparent;
+    border-radius: 5px;
+    background: #56CBF9;
+    color: white;
+    font-size: 1rem;
+}
+
+.button-send:hover,
+.button-send:focus,
+.button-send:active {
+    cursor: pointer;
+    background: white;
+    border: 1px solid #56CBF9;
+    color: #56CBF9;
+}
+
+input {
+    display: block;
+    width: 300px;
+    padding: 10px;
+    margin: 10px;
+    border: 1px solid #ccc;
+    border-radius: 5px;
+}
+
+input:focus {
+    border: 1px solid #56CBF9;
+}
+
+a {
+    text-decoration: none;
+}
+
+a:visited {
+    color: red;
+}

@@ -1,0 +1,49 @@
+* {
+    box-sizing: border-box;
+}
+
+body {
+    margin: 0;
+}
+
+/*
+ עקרון 1: מלמעלה למטה 
+ עקרון 2: הספציפי יותר מנצח
+ */
+#first-paragraph {
+    margin: 50px;
+}
+
+.paragraph {
+    margin: 10px;
+}
+
+p {
+    width: 200px;
+    margin: 10px;
+    padding: 10px;
+    margin: 30px;
+}
+
+/* combinators */
+
+/* all childes */
+.stam-div p {
+    font-size: 20px;
+}
+
+/* first childes */
+.stam-div>p {
+    color: royalblue;
+    font-size: 30px;
+}
+
+/* sibling combinator */
+p+p {
+    background: #ccc;
+}
+
+/* General sibling combinator */
+h5~p {
+    background: black;
+}

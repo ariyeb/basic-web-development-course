@@ -1,0 +1,195 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+    <meta charset="UTF-8">
+    <meta
+        name="viewport"
+        content="width=device-width, initial-scale=1.0"
+    >
+    <title>Script example</title>
+    <link
+        rel="stylesheet"
+        href="./script.css"
+    >
+</head>
+
+<body>
+    <!-- getElementById -->
+    <h1 id="headline">Script example</h1>
+
+    <!-- DOM createElement appendChild romve child -->
+    <div id="paragraphes"></div>
+
+    <!-- click event -->
+    <button
+        type="button"
+        id="stamButton"
+    >
+        Click on me
+    </button>
+
+    <input
+        type="text"
+        id="headlineInput"
+    />
+    <button
+        type="button"
+        id="headlineButton"
+    >
+        Change headline text
+    </button>
+
+    <!-- תרגיל הוספת פסקאות -->
+    <input
+        type="text"
+        id="p-input"
+    />
+    <button id="buttonAddP">Add paragraph</button>
+
+    <!-- style -->
+    <div id="redBox"></div>
+
+    <!-- תרגיל לוח דמקה -->
+    <div
+        class="board"
+        id="board"
+    ></div>
+
+    <!-- selectors -->
+    <div class="square"></div>
+    <div class="square"></div>
+
+    <div class="hollow">1</div>
+    <div class="hollow">2</div>
+    <div class="hollow">3</div>
+
+    <!--  תרגיל ריבועים ירוקים בקליק הופך לצהוב-->
+    <div class="box green"></div>
+    <div class="box green"></div>
+    <div class="box green"></div>
+
+    <!-- children -->
+    <div id="childrenEx">
+        <div>1</div>
+        <div>2</div>
+        <div>3</div>
+    </div>
+
+    <!-- input event -->
+    <div id="input-event">
+        <h4>Input Example</h4>
+        <input type="text">
+    </div>
+
+    <input
+        type="text"
+        id="changing-color-input"
+    >
+
+    <!-- keyup event -->
+    <div id="keyup-event">
+        <h4>keyup Example</h4>
+        <input type="text">
+    </div>
+
+    <!-- blur focuse event -->
+    <input
+        type="text"
+        id="input-blur-focus"
+        class="input-blur-focus"
+        placeholder="blur focus"
+    >
+
+    <!-- mouseover event -->
+    <div class="mouse-events"></div>
+
+    <!-- bubbling -->
+    <div
+        class="bubbling-ex"
+        id="bubbling-ex"
+    >
+        <button>Click on Me</button>
+    </div>
+
+    <!-- תרגיל מודל -->
+    <div
+        id="modal"
+        class="none"
+    >
+        <div
+            id="modalBox"
+            class="modal__box"
+        >
+            <h3>Modal</h3>
+            <button id="buttonCloseModal">Close</button>
+        </div>
+    </div>
+    <button id="buttonOpenModal">Open modal</button>
+
+    <!-- form submit -->
+    <form id="form">
+        <input
+            type="text"
+            name="name"
+            placeholder="Name"
+            id=""
+        >
+        <button type="submit">Submit</button>
+    </form>
+
+    <!-- Subscribe Form Drill -->
+    <div class="form-container">
+        <h4>Form drill</h4>
+        <form id="form-subscribe">
+            <input
+                type="text"
+                placeholder="UserName"
+                id="input-username"
+            >
+            <div
+                id="username-error-message"
+                class="none"
+            ></div>
+            <input
+                type="number"
+                placeholder="Age"
+                id="input-age"
+            >
+            <div
+                id="age-error-message"
+                class="none"
+            ></div>
+            <input
+                type="password"
+                placeholder="Password"
+                id="input-password"
+            >
+            <div
+                id="password-error-message"
+                class="none"
+            ></div>
+            <input
+                type="password"
+                id="input-password-repeated"
+            >
+            <div
+                id="password-reaeted-error-message"
+                class="none"
+            ></div>
+            <button
+                type="submit"
+                id="button-subscribe"
+            >Submit</button>
+        </form>
+        <div id="subscribe-form-result"></div>
+    </div>
+
+
+
+
+
+    <script src="./script.js"></script>
+</body>
+
+</html>

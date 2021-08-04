@@ -1,0 +1,31 @@
+* {
+    box-sizing: border-box;
+}
+
+input {
+    display: block;
+    padding: 5px;
+}
+
+label {
+    display: block;
+    margin-top: 10px;
+}
+
+button {
+    display: block;
+    margin-top: 10px;
+}
+
+.input-stam {
+    width: 100%;
+}
+
+.form-stam {
+    margin: 20px;
+}
+
+.inline-block {
+    display: inline-block;
+    margin-top: 10px;
+}

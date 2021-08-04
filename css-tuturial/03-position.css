@@ -1,0 +1,56 @@
+body {
+    margin: 0;
+}
+
+.rel {
+    width: 100px;
+    height: 100px;
+    position: relative;
+    background: yellowgreen;
+    float: right;
+}
+
+.static-example {
+    height: 1500px;
+    width: 100px;
+    background: chartreuse;
+    margin: 20px;
+}
+
+.relative-example {
+    width: 150px;
+    height: 150px;
+    background: blue;
+    padding: 20px;
+    color: white;
+    position: relative;
+    float: right;
+    top: 100px;
+    right: 100px;
+    /* left: 100px; */
+    /* margin: 50px; */
+}
+
+.absulote-example {
+    width: 50px;
+    height: 40px;
+    padding: 10px;
+    background: red;
+    color: white;
+    position: absolute;
+    top: 20px;
+    right: 20px;
+    /* z-index: -1; */
+}
+
+.fixed-example {
+    width: 100px;
+    height: 100px;
+    background: green;
+    color: white;
+    padding: 20px;
+    position: fixed;
+    top: 100px;
+    left: 100px;
+    /* z-index: -1; */
+}
